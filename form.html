@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <form action="https://dev.fare4z.com" method="POST" enctype="multipart/form-data" name="borang">
+    <p>
+    <label for="name">Full Name:</label>
+    <input type="text" id="nama" name="nama" placeholder="Enter your name"required>
+    </p>
+
+    <p>
+    <label for="kata laluan">Password</label>
+    <input type="password" name="kata laluan" placeholder="Please setup your password" required>
+    </p>
+
+    <p>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Email Address">
+    </p>
+
+    <p>
+        <label for="age">Age</label>
+        <input type="number" name="age">
+    </p>
+
+    <p>
+        <label for="date">Date</label>
+        <input type="date" name="date">
+    </p>
+
+    <p>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+    </p>
+
+    <p>
+        <label for="department">Department</label><br>
+        <input type="checkbox" value="JTMK" name="depatment"[]>JTMK <br>
+        <input type="checkbox" value="JP" name="depatment"[]>JP <br>
+        <input type="checkbox" value="JKE" name="depatment"[]>JKE <br>
+        <input type="checkbox" value="JKM" name="depatment"[]>JKM <br>
+    </p>
+    
+    <p>
+        <input type="hidden" name="role" value="Student">
+    </p>
+
+    <p>
+        <label for="Profile Photo">Profile Photo</label>
+        <input type="file" name="UploadFile">
+    </p>
+
+    <p>
+        <label for="phone">Phone Number</label>
+        <input type="text" value="01111" readonly>
+    </p>
+
+    <p>
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="my">---Please Select---</option>
+            <option value="my">Malaysia</option>
+            <option value="uk">United Kingdom</option>
+            <option value="us">United States</option>
+            <option value="th">Thailand</option>
+            </select>
+    </p>
+
+    <p>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30">
+        </textarea>
+    </p>
+
+    <p>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname"> Last Name:</label>
+            <input type="text" id="lname" name="lname">
+        </fieldset>
+    </p>
+    <P>
+        <button type="submit">Submit</button>
+    </P>
+    
+</form>
+
+</body>
+</html>

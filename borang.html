@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Borang PEndaftaran</h2>
+    <form action="https://dev.fare4z.com" method="POST" enctype="multipart/form-data" name="borang">
+    <p>
+    <label for="name">Nama PEserta:</label>
+    <input type="text" id="nama" name="nama" placeholder="Enter your name"required>
+    </p>
+
+    <p>
+    <label for="ic">Nombor Kad Pengenalan</label>
+    <input type="text" name="kata laluan"  required>
+    </p>
+    <p>
+        <label for="date">Tarikh Lahir</label>
+        <input type="date" name="date">
+    </p>
+    <p>
+        <label for="age">Umur</label>
+        <input type="number" name="age">
+    </p>
+
+    <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email Address">
+    </p>
+    <p>
+        <label for="phone">Nombor Telefon</label>
+        <input type="text" name="phone number">
+    </p>
+    <p>
+        <label for="address">Alamat Rumah</label>
+        <input type="message" name="alamat" rows="4" cols="30">
+    </p>
+    <p>
+        <label for="status">Status Pelajar:</label>
+        <select name="satus">
+            <option value="my">---Sila Pilih---</option>
+            <option value="aktif">Aktif</option>
+            <option value="Tidak Aktif">Tidak Aktif</option>
+            </select>
+    </p>
+    <p>
+        <label for="kemahiran">Kemahiran</label><br>
+        <input type="checkbox" value="HTML" name="Kemahiran"[]>HTML <br>
+        <input type="checkbox" value="CSS" name="Kemahiran"[]>CSS <br>
+        <input type="checkbox" value="PHP" name="Kemahiran"[]>PHP <br>
+    
+    </p>
+    <p>
+        <label for="Profile Photo">Gambar Profile</label>
+        <input type="file" name="UploadFile">
+    </p>
+    <p>
+        <label for="kata laluan">kata laluan</label>
+        <input type="text" name="kata laluan"  required>
+        </p>
+        <P>
+            <button type="submit">Hantar</button>
+            <button type="reset">Kosongkan</button>
+        </P>
+    
+</form>
+
+</body>
+</html>
