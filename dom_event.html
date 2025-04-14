@@ -34,6 +34,31 @@
         
     </div>
 
+    <div>
+        <h2>Event handling</h2>
+        <!--onclick-->
+
+        <button onclick = "alert('Button Clicked')">CLick Me!</button> <br>
+        <button id="Klik">Tekan Saya!</button> <br>
+
+        <p id="welcome">Welcome</p>
+        <img src="https://static.wikia.nocookie.net/schedule-1/images/c/c1/Peter_Mugshot.png/revision/latest?cb=20250406110350" width="250px" id="peter"><Br>
+
+        <!--Event infocus /onblur-->
+
+        <input type="text" id="nama" placeholder="Enter ur name" onfocus="this.style.backgroundColor='lightblue'" onblur="this.style.backgroundColor=''">
+        
+        <input type="text" id="nric" placeholder="Enter ur IC Number">
+
+        <br>
+
+        <select onchange="checkJabatan()" id="jabatan">
+            <option value="">Choose one</option>
+            <option value="DIT">DIT</option>
+            <option value="DDT">DDT</option>
+        </select>
+    </div>
+
     <script src="function.js"></script>
 </body>
 </html>
